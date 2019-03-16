@@ -5,7 +5,7 @@ import Resume from 'react-awesome-resume'
 import logo from './logo.svg';
 import './App.css';
 
-const myJSONResume = {person: "../public/resume.json"};
+const myJSONResume = {any: "../public/resume.json"};
 
 class App extends Component {
   render() {
