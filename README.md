@@ -1,69 +1,68 @@
-### React Awesome Resume
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-#### [DEMO](https://deltaskelta.github.io/react-awesome-resume-demo)
+## Available Scripts
 
-![react-awesome-resume](./demo.png)
+In the project directory, you can run:
 
-```bash
-npm install react-awesome-resume semantic-ui-css
-```
+### `npm start`
 
-### Include the stylesheet for semantic-ui in your project
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-```bash
-import Resume from 'react-awesome-resume';
-import 'semantic-ui-css/semantic.min.css';
-```
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-### Pass your props to the Resume
+### `npm test`
 
-#### `jsonResume` [object]
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-`jsonResume` is an object in the [JSON Resume](https://jsonresume.org/) format, see the
-example in [person.js](./src/person.js) 
+### `npm run build`
 
-#### `theme` [string]
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-`theme` is a string indicating which resume theme to use, currently the supported themes
-are:
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-- default
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### `inline` [bool]
+### `npm run eject`
 
-`inline` is a boolean value which indicates whether or not the resume is meant to be
-rendered `inline` with other content on the page or if it is meant to be fullscreen. If the
-Resume is rendered `inline`, it needs to be in a div that is at least `720px` wide or else
-it will not display correctly.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-### Render the component with your person and your theme
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```jsx
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-import React from "react";
-import ReactDOM from "react-dom";
-import Resume from 'react-awesome-resume'
-import 'semantic-ui-css/semantic.min.css';
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-const myJSONResume = {//...jsonResume}
+## Learn More
 
-ReactDOM.render(
-  <Resume jsonResume={myJSONResume} theme="default" />,
-  document.getElementById("root")
-);
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### TODO:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
- - subtitles need to be changed for small screen renders
- - update to react 16 when a release occurs for semantic-ui
- - add API requests to main page from twitter / medium / github
+### Code Splitting
 
-### DEPLOY NOTES:
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-  1. build and commit a new version, test in development
-  2. make a production build of the component and the project that imports it, test
-  3. build the project and deploy it to deltaskelta.github.io/react-awesome-resume-demo,
-     test it
-  4. `yarn publish`
-  5. push deltaskelta.github.io
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
