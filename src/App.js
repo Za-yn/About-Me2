@@ -5,12 +5,12 @@ import Resume from 'react-awesome-resume'
 import logo from './logo.svg';
 import './App.css';
 
-const myJSONResume = {any: "../public/resume.json"};
+const myJSONResume = {};
 
 class App extends Component {
   render() {
     return (
-        <Resume person={"../public/resume.json"} theme="default" />,
+        <Resume person={myJSONResume} theme="default" />,
         document.getElementById("root")
     );
   }
