@@ -10,8 +10,7 @@ const myJSONResume = {myJSONResume:"../public/resume.json"};
 class App extends Component {
   render() {
     return (
-        <Resume person={myJSONResume} theme="default" />,
-        document.getElementById("root")
+      <Resume person={myJSONResume} theme="default" />
     );
   }
 }
