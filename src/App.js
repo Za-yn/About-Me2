@@ -9,7 +9,7 @@ const myJSONResume = {
   basics: {
     name: 'Zayn Zhuang',
     label: 'CEO / Visionaire Extraordinaire',
-    picture: './erlich-bachman.jpg',
+    picture: '../public/images/profilepic.jpeg',
     // email: 'erlich@piedpiper.com',
     phone: '1 (912) 555-4321',
     website: 'http://piedpiper.com',
