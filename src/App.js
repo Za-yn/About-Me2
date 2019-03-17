@@ -10,7 +10,7 @@ const myJSONResume = {
     "name": "Zayn Zhuang",
     "label": "Founder and CEO",
     "picture": "./profilepic.jpeg",
-    //"email": "john@gmail.com",
+    "email": "john@gmail.com",
     "phone": "+65 96430688",
     "website": "http://johndoe.com",
     "summary": "A summary of John Doe...",
