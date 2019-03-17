@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from "react-dom";
 import 'semantic-ui-css/semantic.min.css';
-import Resume from './resume_components'
+import Resume from 'react-awesome-resume'
 import logo from './logo.svg';
 import './App.css';
 
