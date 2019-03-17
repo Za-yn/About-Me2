@@ -5,12 +5,17 @@ import Resume from 'react-awesome-resume'
 import logo from './logo.svg';
 import './App.css';
 
-const myJSONResume = {myJSONResume:"../public/resume.json"};
+var user;
+$.getJSON("../public/resume.json", function(json){
+    user = json;
+});
+
+const myJSONResume = ({ user });
 
 class App extends Component {
   render() {
     return (
-      <Resume person={"../public/resume.json"} theme="default" />
+      <Resume person={myJSONResume} theme="default" />
     );
   }
 }
