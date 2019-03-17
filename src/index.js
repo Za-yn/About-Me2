@@ -274,7 +274,7 @@ const myJSONResume = {
     ],
   };
 
-ReactDOM.render(<Resume jsonResume={myJSONResume} theme="default" />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
