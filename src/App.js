@@ -9,13 +9,13 @@ const myJSONResume = {
   "basics": {
     "name": "Zayn Zhuang",
     "label": "Founder and CEO",
-    "picture": "./public/profilepic.jpeg",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
+    "picture": "./profilepic.jpeg",
+    //"email": "john@gmail.com",
+    "phone": "+65 96430688",
     "website": "http://johndoe.com",
     "summary": "A summary of John Doe...",
     "location": {
-      "address": "2712 Broadway St",
+      "address": "251 Bedok South Ave 3",
       "postalCode": "CA 94115",
       "city": "San Francisco",
       "countryCode": "US",
