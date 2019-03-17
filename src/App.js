@@ -271,7 +271,7 @@ const myJSONResume = {
       reference: 'Bachmanity burned too bright, like the custom lighting at its luau and, like that lighting, the bulb burned out.',
     },
   ],
-};;
+};
 
 class App extends Component {
   render() {
