@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://za-yn.github.io/About-Me/",
+  "homepage": "https://za-yn.github.io/About-Zayn/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.4",
